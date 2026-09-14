@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kanvad — Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <a class="nav-logo" href="#top">kanvad<span class="blink">_</span></a>
+    <nav class="nav-links">
+      <a href="#about">about</a>
+      <a href="#stack">stack</a>
+      <a href="#stats">stats</a>
+    </nav>
+  </header>
+
+  <main id="top">
+
+    <section class="hero">
+      <div class="hero-card">
+        <h1 class="hero-title">student <span class="stroke">//</span> ai <span class="stroke">//</span> vietnam</h1>
+        <p class="hero-sub">
+          I am a student from Vietnam with a deep passion for artificial intelligence.
+          I spend my time exploring how machines learn and dreaming about the future of AI.
+          When I&rsquo;m not coding, you can find me watching anime or reading about the latest AI trends.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#stack">explore stack</a>
+          <a class="btn btn-ghost" href="#stats">view stats</a>
+        </div>
+      </div>
+      <div class="hero-sticker">
+        <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExMDVtMWt1d2xybmxwcmxlNmJlc3d5enBlam1vcDA4OGt2ZjJxZGt2MiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GAFd7zecFb6Ss/giphy.gif" alt="AI animation" />
+        <p class="sticker-label">future of ai<span class="blink">_</span></p>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>PYTHON</span><span>PYTORCH</span><span>OPENCV</span><span>NODEJS</span><span>PANDAS</span><span>NUMPY</span><span>GODOT</span><span>UNITY</span><span>PYTHON</span><span>PYTORCH</span><span>OPENCV</span><span>NODEJS</span><span>PANDAS</span><span>NUMPY</span><span>GODOT</span><span>UNITY</span>
+      </div>
+    </div>
+
+    <section id="about" class="section">
+      <h2 class="section-title">about<span class="dot">.</span></h2>
+      <div class="about-grid">
+        <div class="card card-mint">
+          <h3>who i am</h3>
+          <p>AI-obsessed student by day, anime enjoyer by night. I tinker with machine learning, build games in Godot &amp; Unity, and keep one eye on what&rsquo;s next in the field.</p>
+        </div>
+        <div class="card card-peach">
+          <h3>what i do</h3>
+          <p>I write Python and JavaScript, train models with PyTorch and scikit-learn, crunch data with pandas &amp; NumPy, and visualize results with Matplotlib.</p>
+        </div>
+        <div class="card card-lavender">
+          <h3>what i love</h3>
+          <p>Exploring how machines learn, dreaming about tomorrow&rsquo;s AI, swapping code for animation, and researching the latest trends on my spare time.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="stack" class="section">
+      <h2 class="section-title">tech stack<span class="dot">.</span></h2>
+      <div class="stack-grid">
+        <span class="chip chip-red">Python</span>
+        <span class="chip chip-yellow">JavaScript</span>
+        <span class="chip chip-blue">NodeJS</span>
+        <span class="chip chip-mint">OpenCV</span>
+        <span class="chip chip-purple">NumPy</span>
+        <span class="chip chip-pink">Pandas</span>
+        <span class="chip chip-coral">PyTorch</span>
+        <span class="chip chip-orange">scikit-learn</span>
+        <span class="chip chip-white">Matplotlib</span>
+        <span class="chip chip-cyan">Git</span>
+        <span class="chip chip-git">GitHub</span>
+        <span class="chip chip-red">Godot</span>
+        <span class="chip chip-black">Unity</span>
+        <span class="chip chip-white">Markdown</span>
+        <span class="chip chip-purple">Bootstrap</span>
+        <span class="chip chip-pink">Itch.io</span>
+      </div>
+    </section>
+
+    <section id="stats" class="section">
+      <h2 class="section-title">github stats<span class="dot">.</span></h2>
+      <div class="stats-grid">
+        <div class="card card-blue stats-card">
+          <img src="https://github-readme-stats.shion.dev/api?username=kanvad&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false" alt="GitHub stats" />
+        </div>
+        <div class="card card-pink stats-card">
+          <img src="https://streak-stats.demolab.com/?user=kanvad&theme=tokyonight&hide_border=true" alt="GitHub streak" />
+        </div>
+      </div>
+      <div class="card card-yellow stats-wide">
+        <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=kanvad&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact" alt="Top languages" />
+      </div>
+      <div class="quote-box">
+        <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Random dev quote" />
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="foot">
+    <p>© <span id="year"></span> kanvad — built with pastel neo-brutalism</p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
