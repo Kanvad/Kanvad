@@ -15,7 +15,7 @@
 <table border="0">
   <tr>
     <td align="center">
-      <img src="https://github-readme-stats.shion.dev/api?username=kanvad&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false">
+      <img src="https://github-stats-extended.vercel.app/api?username=Kanvad&show_icons=true&include_all_commits=true&theme=tokyonight&hide_border=true">
     </td>
     <td align="center">
       <img src="https://streak-stats.demolab.com/?user=kanvad&theme=tokyonight&hide_border=true">
@@ -24,7 +24,7 @@
 </table>
 
 <p align="center">
-  <img src="https://github-readme-stats.shion.dev/api/top-langs/?username=kanvad&theme=tokyonight&hide_border=true&include_all_commits=false&count_private=false&layout=compact">
+  <img src="https://github-stats-extended.vercel.app/api/top-langs?username=Kanvad&layout=compact&langs_count=4&theme=tokyonight&hide_border=true">
 </p>
 
 
